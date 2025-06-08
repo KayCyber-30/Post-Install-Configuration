@@ -22,11 +22,55 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles (for grouping permissions)
+
+Admin Panel -> Agents -> Roles
+Supreme Admin
+
+
+- Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+
+Admin Panel -> Agents -> Departments
+SysAdmins
+
+
+- Configure Teams
+  
+Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Online Banking
+
+- Allow anyone to create tickets
+
+Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
+Registration Required: Registration and login are required to create tickets 
+
+- Configure Agents (workers)
+  
+Admin Panel -> Agents -> Add New
+Jane (Dept: SysAdmins)
+John (Dept: Support)
+
+
+Configure Users (customers)
+
+Agent Panel -> Users -> Add New
+
+
+
+
+Configure SLA
+Admin Panel -> Manage -> SLA
+
+
+Configure Help Topics (For when users create a ticket)
+
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+Other
+
 
 <h2>Configuration Steps</h2>
 
