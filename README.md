@@ -95,6 +95,8 @@ Admin Panel -> Agents -> Add New
 Configure Users (customers)
 Agent Panel -> Users -> Add New
 
+![image](https://github.com/user-attachments/assets/ea9c8cc7-bd92-44b2-8f31-331bc65f409f)
+
 
 Configure SLA
 Admin Panel -> Manage -> SLA
